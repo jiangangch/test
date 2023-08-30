@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2023-08-30T06:44:12.858Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="frMetVZjjLflGBxbVHcT" version="21.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-30T07:58:18.503Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="7EAwSoekWHRu0LxOeOu7" version="21.7.0" type="github">
   <diagram name="Page-1" id="19d8dcba-68ad-dc05-1034-9cf7b2a963f6">
-    <mxGraphModel dx="1418" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2954" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZyIgHBozYoVM3mytsBDg-16" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="316" width="304" height="304" as="geometry" />
+        </mxCell>
+        <mxCell id="ZyIgHBozYoVM3mytsBDg-14" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="490" y="316" width="304" height="304" as="geometry" />
+        </mxCell>
         <mxCell id="218ae93e1282097f-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;endArrow=block;endFill=1;strokeColor=#4D4D4D;strokeWidth=2;fontFamily=Verdana;fontSize=12;fontStyle=1" parent="1" source="6257edae8c83ed4a-1" target="6257edae8c83ed4a-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -13,14 +19,22 @@
         <mxCell id="218ae93e1282097f-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;endArrow=block;endFill=1;strokeColor=#4D4D4D;strokeWidth=2;fontFamily=Verdana;fontSize=12;fontStyle=1" parent="1" source="6257edae8c83ed4a-1" target="218ae93e1282097f-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="218ae93e1282097f-8" value="上午T05垫资混合处理" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=12;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="520" y="360" width="140" height="50" as="geometry" />
+        <mxCell id="218ae93e1282097f-8" value="T05请款失败，人工进行数据调整，降低了对监管行批次的关注" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=12;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="500" y="334" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZyIgHBozYoVM3mytsBDg-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.447;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6257edae8c83ed4a-9" target="ZyIgHBozYoVM3mytsBDg-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6257edae8c83ed4a-9" value="原因" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=12;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="526" y="210" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="6257edae8c83ed4a-21" value="监管行查询数据集大" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=12;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="521" y="435" width="134" height="50" as="geometry" />
+        <mxCell id="6257edae8c83ed4a-21" value="监管行数据跑批，RT批次查询数据集大，数据组织时间较久，出现一次数据库异常后，按照往常一样进行了一次重跑" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=12;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="500" y="409" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZyIgHBozYoVM3mytsBDg-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6257edae8c83ed4a-12" target="ZyIgHBozYoVM3mytsBDg-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1035.062" y="317.182" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="6257edae8c83ed4a-12" value="解决方案" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=12;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="887.5" y="210" width="200" height="50" as="geometry" />
@@ -28,35 +42,53 @@
         <mxCell id="6257edae8c83ed4a-1" value="调仓过程引发的安全隐患" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=12;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="887.5" y="60" width="200" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="ZyIgHBozYoVM3mytsBDg-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="218ae93e1282097f-2" target="ZyIgHBozYoVM3mytsBDg-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="218ae93e1282097f-2" value="待处理" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=12;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1247" y="210" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="6257edae8c83ed4a-24" value="资金的应急手段" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=12;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1247" y="360" width="200" height="50" as="geometry" />
+        <mxCell id="6257edae8c83ed4a-24" value="讨论资金的应急流程" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=12;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1210" y="332" width="280" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ZyIgHBozYoVM3mytsBDg-1" value="监管行插入事务大" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=12;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="523" y="510" width="134" height="50" as="geometry" />
+        <mxCell id="ZyIgHBozYoVM3mytsBDg-1" value="监管行数据跑批，RT批次组装结果26w，一次性插入大事务，出现数据库超时异常，导致插入失败" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="500" y="484" width="280" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ZyIgHBozYoVM3mytsBDg-5" value="上午T05垫资混合处理" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=12;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="887.5" y="360" width="200" height="50" as="geometry" />
+        <mxCell id="ZyIgHBozYoVM3mytsBDg-5" value="减少非系统原因的人工介入" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="847" y="332" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZyIgHBozYoVM3mytsBDg-6" value="使用指针游标，长期会重构单笔处理" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=12;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="887.5" y="435" width="200" height="50" as="geometry" />
+          <mxGeometry x="847" y="407" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZyIgHBozYoVM3mytsBDg-7" value="使用流来处理--长期会重构单笔处理" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=12;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="887.5" y="520" width="200" height="50" as="geometry" />
+          <mxGeometry x="847" y="492" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZyIgHBozYoVM3mytsBDg-8" value="内部系统排查，大批量处理情况" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=12;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1250" y="435" width="200" height="50" as="geometry" />
+          <mxGeometry x="1210" y="407" width="280" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ZyIgHBozYoVM3mytsBDg-10" value="本次待优化代码排期优化" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=12;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1250" y="520" width="200" height="50" as="geometry" />
+        <mxCell id="ZyIgHBozYoVM3mytsBDg-10" value="初步版本代码已完成上线，后续还需要进一步对跑批任务进行优化" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1210" y="493" width="280" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ZyIgHBozYoVM3mytsBDg-11" value="配置数据重复加载" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=12;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="523" y="580" width="134" height="50" as="geometry" />
+        <mxCell id="ZyIgHBozYoVM3mytsBDg-11" value="监管行批次跑批，循环数据过程中，存在重复加载配置数据的情况，导致数据组装缓慢" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="500" y="554" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZyIgHBozYoVM3mytsBDg-12" value="线程内缓存改造" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=12;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="887.5" y="590" width="202.5" height="50" as="geometry" />
+          <mxGeometry x="847" y="562" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZyIgHBozYoVM3mytsBDg-21" value="新版监控中，加入平均执行时长，超出平均则预警" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1210" y="562" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZyIgHBozYoVM3mytsBDg-22" value="产线故障，在15分钟内无法独立解决，需要同步信息，并作出必要的决策" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="847" y="630" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZyIgHBozYoVM3mytsBDg-24" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="837" y="330" width="300" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="ZyIgHBozYoVM3mytsBDg-26" value="批处理数据驱动，在起始的地方进行触发，最优单条驱动模式" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=12;fontStyle=1" vertex="1" parent="ZyIgHBozYoVM3mytsBDg-24">
+          <mxGeometry x="10" y="364" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZyIgHBozYoVM3mytsBDg-27" value="核算明细，监管行，历史数据的归档" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=12;fontStyle=1" vertex="1" parent="ZyIgHBozYoVM3mytsBDg-24">
+          <mxGeometry x="10.5" y="424" width="280" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
